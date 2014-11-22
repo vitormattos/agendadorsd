@@ -1,0 +1,22 @@
+{
+    "name": "vitormattos/agendadorsd",
+    "description": "System for monitore site of seguro desemprego and send email when has changes in calendar",
+    "require": {
+        "symfony/console": "3.0.*@dev",
+        "guzzle/guzzle": "3.9.*@dev",
+        "symfony/dom-crawler": "3.0.*@dev"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vitor Mattos",
+            "email": "vitor.mattos@phprio.org"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Console\\": "src/"
+        }
+    }
+}
